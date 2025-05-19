@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+# 🚫 Parking Wars: Clementine University Simulator
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, interactive **React-based simulation** that reenacts the legendary battle between **students** and **parking services** at Clementine University.
 
-## Available Scripts
+📆 Choose a start date → simulate daily battles → see who dominates the month: 🎓 or 🚗
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🔗 Live Demo
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+🌐 [View on Netlify](https://parkingwars.netlify.app)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🎮 Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- 📅 **Date picker** to start your simulation
+- 📊 **Daily logs** showing ticket counts and student behavior
+- 🧠 Weighted random logic (based on your C++ version)
+- 🏆 **Summary panel** with win tallies for each side
+- 💅 Responsive, high-end CSS design
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🧠 Simulation Logic
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 🎓 Students Parking Without Permits
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Based on weighted random chance:
+- 50% chance: +3 students
+- 35% chance: +1 student
+- 15% chance: +6 students
 
-### `npm run eject`
+### 🚗 Parking Tickets Given
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- 35% chance: 0 tickets
+- 30% chance: 9 tickets
+- 30% chance: 1 ticket
+- 5% chance: 12 tickets
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🛠️ Tech Stack
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+| Layer     | Tools                   |
+|-----------|-------------------------|
+| Frontend  | React, JavaScript       |
+| Styling   | Plain CSS               |
+| Deployment | Netlify / GitHub Pages |
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🧪 How to Run Locally
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+git clone https://github.com/TrishaAndres/parking-wars-simulation.git
+cd parking-wars-simulation
+npm install
+npm start
+```
+Runs at http://localhost:3000
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 📸 Screenshots 
 
-### Analyzing the Bundle Size
+<img src="./preview2.png" alt="Parking Wars Simulation Screenshot" width="400"/>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<img src="./preview3.png" alt="Parking Wars Simulation Screenshot2" width="400"/>
