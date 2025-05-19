@@ -1,0 +1,66 @@
+.App {
+    font-family: 'Segoe UI', sans-serif;
+    max-width: 900px;
+    margin: auto;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #1e3a8a;
+    margin-bottom: 1.5rem;
+  }
+  
+  .date-input {
+    margin-bottom: 2rem;
+  }
+  
+  .date-input input {
+    padding: 8px;
+    margin-right: 10px;
+    font-size: 1rem;
+  }
+  
+  .date-input button {
+    padding: 8px 16px;
+    font-size: 1rem;
+    background-color: #4ade80;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .log {
+    display: grid;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+  
+  .day-card {
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    text-align: left;
+  }
+  
+  .day-card h3 {
+    margin: 0 0 0.5rem;
+  }
+  
+  .day-card.students {
+    background-color: #dbeafe;
+    border-left: 5px solid #3b82f6;
+  }
+  
+  .day-card.parking {
+    background-color: #fee2e2;
+    border-left: 5px solid #ef4444;
+  }
+  
+  .summary {
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: #f3f4f6;
+    border-radius: 8px;
+  }
+  
